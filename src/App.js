@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-// import About from './components/About';
+import About from './components/About';
 import NavBar from './components/NavBar';
 import TextForms from './components/TextForms';
 import React, { useState } from 'react';
@@ -87,7 +87,7 @@ function App() {
       <Route path="/" element={<TextForms showAlert={showAlert} heading="Enter the text:" mode={mode} />}></Route> */}
     
     <TextForms showAlert={showAlert} heading="Enter the text:" mode={mode} />
-    {/* <About/> */}
+    <About mode={mode} />
     {/* </Routes> */}
     </div>
     {/* </Router> */}

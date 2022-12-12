@@ -21,14 +21,14 @@ export default function
               <a className="nav-link " href="/about">{props.aboutText}</a>
             </li>
           </ul>
-          <div className={`form-check mx-3 form-switch text-${props.mode==='light'?'dark':'light'}`}>
+          {/* <div className={`form-check mx-3 form-switch text-${props.mode==='light'?'dark':'light'}`}>
             <input type="checkbox" data-onstyle="success" className="form-check-input "  onClick={props.toggleModeTwo}  role="switch" id="flexSwitchCheckDefault" />
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Red Mode</label>
           </div>
           <div className={`form-check mx-3 form-switch text-${props.mode==='light'?'dark':'light'}`}>
             <input className="form-check-input" onClick={props.toggleModeThree} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Green Mode</label>
-          </div>
+          </div> */}
           <div className={`form-check mx-3 form-switch text-${props.mode==='light'?'dark':'light'}`}>
             <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Dark Mode</label>
